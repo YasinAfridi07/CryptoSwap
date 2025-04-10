@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
-const cryptoOptions = ["BTC", "ETH", "USDT"];
+const cryptoOptions = ["BTC", "ETH", "USDT", "NIGGA COIN"];
 
-const AEDToCryptoSwap = () => {
+const AEDToCryptoSwap = () => 
+{
   const [aedAmount, setAedAmount] = useState("");
   const [selectedCrypto, setSelectedCrypto] = useState("BTC");
 

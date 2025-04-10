@@ -1,19 +1,22 @@
 import React, { useState } from "react";
 
-const cryptoOptions = ["BTC", "ETH", "SOL", "USDT"];
+const cryptoOptions = ["BTC", "ETH", "SOL", "USDT", "NIGGA COIN"];
 
-const CryptoToCryptoSwap = () => {
+const CryptoToCryptoSwap = () => 
+{
   const [from, setFrom] = useState("BTC");
   const [to, setTo] = useState("ETH");
   const [amount, setAmount] = useState("");
 
-  const handleSwap = () => {
+  const handleSwap = () => 
+  {
     const temp = from;
     setFrom(to);
     setTo(temp);
   };
 
-  const handleConfirm = () => {
+  const handleConfirm = () => 
+  {
     alert(`Swapping ${amount} ${from} to ${to}`);
   };
 
